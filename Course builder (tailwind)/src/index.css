@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .d1 {
+        @apply bg-red-300/70 !important;
+    }
+    .d2 {
+        @apply bg-blue-300/70 !important;
+    }
+    .d3 {
+        @apply bg-green-300/70 !important;
+    }
+    .d4 {
+        @apply bg-orange-300/70 !important;
+    }
+    .d5 {
+        @apply bg-pink-300/70 !important;
+    }
+}
+
+.dnd-sortable-tree_simple_tree-item{
+    border:none !important;
+    padding: 0px !important;
+}
+
+body{
+    @apply bg-lighty;
+    cursor: url('/svg/arrowPointer.svg'),auto;
+}
+
+button{
+    cursor: url('/svg/handPointer.svg'),auto !important;
+}
